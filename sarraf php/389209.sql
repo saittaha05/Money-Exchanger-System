@@ -1,0 +1,3 @@
+CREATE TABLE `php_final`.`389209_tbl_kullanicilar` ( `id` INT NOT NULL AUTO_INCREMENT , `ad_soyad` VARCHAR(150) NOT NULL , `email` VARCHAR(150) NOT NULL , `sifre` VARCHAR(50) NOT NULL , `fotograf` VARCHAR(500) NOT NULL , `aktivasyon` VARCHAR(500) NOT NULL , `aktif_mi` INT NOT NULL DEFAULT '0' , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+CREATE TABLE `php_final`.`389209_tbl_doviz` ( `id` INT NOT NULL AUTO_INCREMENT , `doviz_ad` VARCHAR(50) NOT NULL , `alis_fiyat` VARCHAR(50) NOT NULL , `satis_fiyat` VARCHAR(50) NOT NULL , `sube` INT NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+CREATE TABLE `php_final`.`389209_tbl_sarraflar` ( `id` INT NOT NULL AUTO_INCREMENT , `sarraf` VARCHAR(500) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
